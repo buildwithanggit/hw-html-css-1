@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #ffffff;
   font-family: 'Heebo', sans-serif;
@@ -52,20 +53,88 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-.box-information-profile {
+.w-50 {
   width: 50%;
-  /* start */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
 }
 
-.box-image-profile {
-  width: 50%;
+.box-img-profile {
+  height: 243;
+  width: 243;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-contact-education {
   display: flex;
+  flex-direction: row;
+}
+
+.box-contact {
+  width: 50%;
+}
+
+.box-education {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.box-contact > ul > li {
+  margin-bottom: 10px;
+}
+
+.green-color {
+  color: #136223;
+}
+
+.text-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.education-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.education-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.gray-color {
+  color: #52575c;
+}
+
+.education-detail {
+  margin-bottom: 16px;
 }
