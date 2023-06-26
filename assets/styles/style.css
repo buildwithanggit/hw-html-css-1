@@ -67,6 +67,8 @@ body {
 .section-contact-education {
   display: flex;
   flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .box-contact {
@@ -137,4 +139,68 @@ body {
 
 .education-detail {
   margin-bottom: 16px;
+}
+
+.section-project-experience {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.box-project-image {
+  width: 246px;
+  height: 180px;
+}
+
+.box-project-description {
+  width: auto;
+}
+
+.project-text-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44.06px;
+}
+
+.project-text-subtitle {
+  color: #8695a4;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+.project-text-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.project-badge {
+  border-radius: 16px;
+  background-color: #142850;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 5px 10px;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.divider {
+  margin: 2rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: 1rem;
 }
